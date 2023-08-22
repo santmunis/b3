@@ -1,0 +1,33 @@
+<div class="content-wrap">
+    <div>
+        <h3 class="title">Simule o seu investimento em CDB</h3>
+    </div>
+    <form [formGroup]="form" >
+        <mat-form-field class="example-form-field">
+            <mat-label>Valor Inicial</mat-label>
+            <input matInput type="number" min="0" formControlName="initialInvestment">
+            <mat-error *ngIf="form.get('initialInvestment')?.hasError('required')">
+                Forneça um valor válido para o ivestimento inicial
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-form-field">
+            <mat-label>Prazo de duração do investimento (em meses)</mat-label>
+            <input matInput data-test="id" type="number" min="1" formControlName="deadlineInMonths">
+            <mat-error *ngIf="form.get('deadlineInMonths')?.hasError('required')">
+                Forneça um valor válido para a duração do ivestimento
+            </mat-error>
+            <mat-error id="deadlineInMonths" *ngIf="form.get('deadlineInMonths')?.hasError('pattern') && !form.get('deadlineInMonths')?.hasError('required')">
+                O tempo de duração precisa ser um número inteiro de meses
+              </mat-error>
+        </mat-form-field>
+    </form> 
+    <div>
+        <button class="btn-calc" color="primary" (click)="onSubmit()" mat-flat-button>SIMULAR INVESTIMENTO</button>
+    </div>
+
+    <div *ngIf="ivestiment" class="ivestiment">
+        <label><strong>Valor Bruto: </strong> {{ivestiment.grossValue | currency}}</label>
+        <label><strong>Valor Líquido: </strong> {{ivestiment.netValue | currency}}</label>
+        <label><strong>Imposto incedido: </strong>{{ivestiment.tax}}</label>
+    </div>
+</div>
