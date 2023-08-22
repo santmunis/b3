@@ -7,7 +7,7 @@ Este guia ajudará você a configurar e rodar tanto o back-end quanto o front-en
 <p></p><strong>.NET </strong>- versão 7</p>
 
 <h2>Rodando a Aplicação</h2>
-Siga estas etapas para configurar e rodar á aplicação:
+Siga estas etapas para configurar e rodar a aplicação:
 
 Navegue até a pasta ClientAPP no terminal que está localizada dentro do diretório B3.
 
