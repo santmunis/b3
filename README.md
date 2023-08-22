@@ -3,7 +3,7 @@ Este guia ajudará você a configurar e rodar tanto o back-end quanto o front-en
 
 <h2>Configuração do Ambiente</h2>
 <p><strong>Node.js</strong> - versão 16.3 ou superior</p>
-<p><strong>Angular CLI</strong>strong> - instalado globalmente versão 15.2</p>
+<p><strong>Angular CLI</strong> - instalado globalmente versão 15.2</p>
 <p></p><strong>.NET </strong>- versão 7</p>
 
 <h2>Rodando a Aplicação</h2>
