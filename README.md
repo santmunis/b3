@@ -24,7 +24,7 @@ Navegue até a pasta B3 no terminal e execute o seguinte comando para iniciar o 
 
 <pre>dotnet run</pre>
 
-Para executar os testes da aplicação backend, navegue até o o diretório <h5>TestProject1</h5>
+Para executar os testes da aplicação backend, navegue até o o diretório <strong>TestProject1</strong>
 Execute o seguinte comando:
 
 <pre>dotnet test</pre>
