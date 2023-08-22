@@ -6,8 +6,8 @@ Este guia ajudará você a configurar e rodar tanto o back-end quanto o front-en
 <p><strong>Angular CLI</strong> - instalado globalmente versão 15.2</p>
 <p></p><strong>.NET </strong>- versão 7</p>
 
-<h2>Rodando a Aplicação</h2>
-Siga estas etapas para configurar e rodar a aplicação:
+<h2>Rodando o projeto</h2>
+Siga estas etapas para configurar e rodar o projeto:
 
 Navegue até a pasta ClientAPP no terminal que está localizada dentro do diretório B3.
 
