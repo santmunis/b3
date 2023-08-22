@@ -1,10 +1,10 @@
-<h3>Teste Técnico</h3>h3>
+<h3>Teste Técnico</h3>
 Este guia ajudará você a configurar e rodar tanto o back-end quanto o front-end da aplicação. Certifique-se de seguir as instruções abaixo para começar a explorar o projeto.
 
 <h2>Configuração do Ambiente</h2>
-<strong>Node.js</strong> - versão 16.3 ou superior
-<strong>Angular CLI</strong>strong> - instalado globalmente versão 15.2
-<strong>.NET </strong>strong>- versão 7
+<p><strong>Node.js</strong> - versão 16.3 ou superior</p>
+<p><strong>Angular CLI</strong>strong> - instalado globalmente versão 15.2</p>
+<p></p><strong>.NET </strong>- versão 7</p>
 
 <h2>Rodando a Aplicação</h2>
 Siga estas etapas para configurar e rodar a plicação:
