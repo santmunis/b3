@@ -33,8 +33,8 @@ os passos `NPM START` e `dotnet run` podem ser ignorados caso a aplicação seja
 
 <h2>Acessando a Aplicação</h2>
 Agora que tanto o back-end quanto o front-end estão rodando, você pode acessar a aplicação em seu navegador:
-
-<p><strong>Front-end:</strong>strong> https://localhost:44415/</p>
-<p><strong>Back-end:</strong>strong> http://localhost:5133, https://localhost:7212</p>
+<br>
+<p><strong>Front-end:</strong> https://localhost:44415/</p>
+<p><strong>Back-end:</strong> http://localhost:5133, https://localhost:7212</p>
 
 
